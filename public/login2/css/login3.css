@@ -1,0 +1,78 @@
+body
+	{
+  		background-color: #1a4f5a;
+  		/*background: url("../media/img/BG_Login.png");*/
+  		/*height: 100%;*/
+  		/*background-position: center;*/
+  		/*background-repeat: no-repeat;*/
+  		/*background-size: cover;*/
+  		/*position: relative;*/
+  		padding: 20px;
+	}
+
+
+.card-login
+	{
+		border: none;
+		border-radius: 0.75rem;
+	}
+
+.card-img,
+.card-img-top,
+.card-login
+	{
+  		border-top-left-radius: calc(0.75rem - 1px);
+  		border-top-right-radius: calc(0.75rem - 1px);
+	}
+
+.logoB-completo
+	{
+		margin:50px 0px 50px 0px;
+
+	}
+
+.logoB-login
+	{
+		z-index: 1000;
+		position: absolute;
+		padding: 20px 20px 0px 20px;
+		width: 100%;
+
+	}
+
+.logoB-login> a
+	{
+		float: right;
+		display: inline-block;
+		vertical-align: middle;
+		margin-top: 10%;
+	}
+
+.ulogin
+	{
+		color: #003b48;
+		font-size: 35px;
+		font-weight: bold;
+	}
+
+.wblogin
+	{
+		color: #3e8e9b;
+		font-size: 15px;
+		font-weight: bold;
+	}
+
+.rlogin
+	{
+		color: #3e8e9b;
+		font-size: 14px;
+		font-weight: bold;
+	}
+
+.btn-login
+	{
+		color:#fff;
+		background-color:#3e8e9b;
+		border-color:#1a4f5a;
+		font-weight: bold;
+	}

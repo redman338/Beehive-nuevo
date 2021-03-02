@@ -1,0 +1,219 @@
+/* label color */
+/*.input-field label {
+    color: #000;
+}*/
+/* label focus color */
+/*.input-field input[type=text]:focus + label {
+    color: #000;
+}*/
+/* label underline focus color */
+/*.input-field input[type=text]:focus {
+    border-bottom: 1px solid #000;
+    box-shadow: 0 1px 0 0 #000;
+}*/
+/* valid color */
+/*.input-field input[type=text].valid {
+    border-bottom: 1px solid #000;
+    box-shadow: 0 1px 0 0 #000;
+}*/
+/* invalid color */
+/*.input-field input[type=text].invalid {
+    border-bottom: 1px solid #000;
+    box-shadow: 0 1px 0 0 #000;
+}*/
+/* icon prefix focus color */
+/*.input-field .prefix.active {
+    color: #000;
+}*/
+
+body
+    {
+        background:url("../multimedia/img/bg3.jpg") no-repeat; 
+        background-size:cover;
+        /*background-position: center;*/
+        width: 100%;
+        height: 100%;
+        
+    }
+
+.bgmain
+    {
+        background: rgba(0, 150, 136, 0.2);
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+    }
+
+.main
+    {
+       z-index: 1;
+   }
+
+
+/*@font-face {
+    font-family:"Neuropol";
+    src:url("../fonts/neuropol/neuropol.eot?") format("eot"),
+        url("../fonts/neuropol/neuropol.woff") format("woff"),
+        url("../fonts/neuropol/neuropol.ttf") format("truetype"),
+        url("../fonts/neuropol/neuropol.svg#Neuropol") format("svg");
+    font-weight:normal;
+    font-style:normal;
+    }*/
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Quicksand:700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Vollkorn:900i&display=swap');
+.FBold
+    {
+        font-weight: bold;
+    }
+
+.FontNeuropol
+    {
+        font-family: "Neuropol";
+    }
+
+.Quicksand{
+
+    font-family: 'Quicksand' sans-serif;
+    font-weight: 700;
+}
+
+.FontVollkorn{
+
+    font-family: 'Vollkorn', serif;
+    font-weight: 900;
+    font-style: italic;
+}
+
+
+.pt30{
+
+    padding-top: 130px;
+}
+
+.card-logins
+    {
+        transition: box-shadow .25s;
+        padding: 24px 24px 0px 24px;
+        /*margin: 0.5rem 0 1rem 0;*/
+        border-radius: 4px;
+        /*background-color: #fff;*/
+        background: rgba(255, 255, 255, 0.8);
+        box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+    }
+
+
+
+hr.hr1
+    {
+        border-bottom: solid #009688 3px;
+        width: 30%;
+    }
+
+.padd100
+    {
+        padding-top: 40%;
+    }
+
+.logosOficiales
+    {
+        padding-top: 50px;
+    }
+
+.forgotPass
+    {
+        color: #b71c1c;
+        /*text-shadow: 0.03em 0.03em 0.08em white;*/
+    }
+
+.card-logins2
+    {
+        transition: box-shadow .25s;
+        /*padding: 24px;*/
+        margin: 0.5rem 0 1rem 0;
+        border-radius: 4px;
+        background-color: #fff;
+        box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+    }
+
+    .login
+        {
+            padding: 24px;
+        }
+
+    .slider-login
+        {
+
+        }
+
+
+.padd10
+    {
+        padding: 0px 15px 0px 0px;
+    }
+
+.FSize14
+    {
+        font-size: 14px;
+    }
+
+
+.brillo{
+
+    position:relative;
+    margin: 0 auto;
+    display: block;
+    font-size:25px;
+    /*height: 70px;
+    width: 250px; */  
+    text-decoration:none;
+    color:#333;
+    overflow:hidden;
+    margin-top: 20px;
+    margin-bottom:10px; 
+}
+.brillo  span{
+    position:relative;
+    display: block;
+    background:url(../multimedia/img/brillo.png) no-repeat;   
+    background-position: -100px 0px;
+    margin-top:-60px;
+    height: 70px;
+   /* width: 250px;   */
+}
+.brillo:hover span{
+    background-position: 500px 0px;
+    -webkit-transition-property: all;
+    -webkit-transition-duration: 1s;
+    transition-property: all;
+    transition-duration: 1s;
+}
+
+.brillo2{
+
+    position:relative;
+    margin: 0 auto;
+    display: block;
+    font-size:30px;   
+    text-decoration:none;
+    overflow:hidden;
+    margin-top: 16px;
+    margin-bottom:10px; 
+    padding-left: 10px;
+  
+}
+
+.roboto{
+
+     font-family: 'Roboto', sans-serif; 
+    font-weight: 500;
+}
+.navb li{
+
+    list-style: none;
+    float: left;
+}
+
+
